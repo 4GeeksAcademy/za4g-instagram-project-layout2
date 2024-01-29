@@ -1,0 +1,83 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+.boldtext {
+    font-weight: bold;
+}
+
+.container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.instagrampost {
+    background-color: white;
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.htmllogo {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.postheading {
+    text-align: left;
+    flex: 2;
+}
+
+.posttitle {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.postname {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.ellipsis {
+    text-align: center;
+    padding: 10px;
+}
+
+.likedby, .description {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerimage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.actionbuttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionbuttons-left {
+    padding: 10px;
+}
+
+.actionbuttons-right {
+    padding: 10px;
+}
